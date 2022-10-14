@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+#calcu{
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 100px 100px 100px 100px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    border: solid 3px black;
+    line-height: 100px;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    grid-column: 1/span 3;
+    box-shadow: black 10px 10px 5px;
+    
+    
+}
+#resposta{
+    grid-column: 1 /span 4;
+    border: solid 3px black ;
+}
+.casa{
+    border: solid 3px black ;
+    
+    
+}
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(164, 219, 255);
+    display: grid;
+    grid-template-columns: auto 400 auto;
+    grid-template-rows: 100px 500px auto;
+}
+.casa:hover{
+    background-color: rgb(181, 255, 251);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#titulo{
+    grid-column: 1/span 3;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.casa-op{
+    border: solid 3px black ;
+}
+
+.casa-op:hover{
+    background-color: rgb(181, 255, 251);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#casa15:hover{
+    background-color: rgb(181, 255, 251);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#casa13:hover{
+    background-color: rgb(181, 255, 251);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#casa13{
+    border: solid 3px black;
+}
+
+#casa15{
+    border: solid 3px black;
+}
+
